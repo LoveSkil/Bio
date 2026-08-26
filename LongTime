@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link in Bio - @lovesskill</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body { background-color: #686b73; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .container { background-color: #d9dadc; width: 100%; max-width: 480px; padding: 40px 24px; border-radius: 24px; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+        .avatar { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; border: 3px solid #ffffff; }
+        .handle { font-size: 1.25rem; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+        .bio { font-size: 0.95rem; color: #4a4a4a; margin-bottom: 20px; }
+        .social-icons { display: flex; justify-content: center; gap: 16px; margin-bottom: 28px; }
+        .social-icons a { color: #1a1a1a; font-size: 1.5rem; transition: transform 0.2s; }
+        .social-icons a:hover { transform: scale(1.15); }
+        .links-container { display: flex; flex-direction: column; gap: 16px; }
+        .link-card { background-color: #ffffff; color: #1a1a1a; text-decoration: none; padding: 16px 20px; border-radius: 12px; font-weight: 600; display: flex; align-items: center; justify-content: center; position: relative; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .link-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .link-card i { position: absolute; left: 20px; font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://ui-avatars.com/api/?name=Oski&background=1a1a1a&color=fff&size=128" alt="@lovesskill" class="avatar">
+        <h1 class="handle">@lovesskill</h1>
+        <p class="bio">22 PL Młody ale uzdolniony lubie wyzwania jak i gry komputerowe :D</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/_oski_oski_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@lovesskill?lang=pl-PL" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://open.spotify.com/user/317qpx3rh73bfmlisyc53b542gfq" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+            <a href="https://www.snapchat.com/add/ni3znaj0my" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+        </div>
+        <div class="links-container">
+            <a href="https://www.instagram.com/_oski_oski_/" class="link-card" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram 📸</a>
+            <a href="https://open.spotify.com/user/317qpx3rh73bfmlisyc53b542gfq" class="link-card" target="_blank"><i class="fa-brands fa-spotify"></i> Spotify 🎶</a>
+            <a href="https://www.snapchat.com/add/ni3znaj0my" class="link-card" target="_blank"><i class="fa-brands fa-snapchat"></i> Snapchat 🪩</a>
+            <a href="https://www.tiktok.com/@lovesskill?lang=pl-PL" class="link-card" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok ⏰</a>
+        </div>
+    </div>
+</body>
+</html>
